@@ -102,8 +102,8 @@ server.put("/user", function (req, res, next) {
     message: "Usuario Editado",
     user: user
   });
-}); // editar usuario
-
+}); 
+// editar usuario para ser admin
 server.put("/addamin", function (req, res, next) {
   var _req$body3 = req.body,
       email = _req$body3.email,
